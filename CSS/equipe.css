@@ -9,6 +9,15 @@
     font-family: sans-serif;
 }
 
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -58,13 +67,37 @@ section nav ul li a:hover{
 
 /*------------*/
 
-.equipe{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
+.cards .crad .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
+.cards .crad .content .img{
+    height: 130px;
+    width: 130px;
+}
+
+.card .content .img img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+    top: 100px;
+    position: absolute;
+}
+
+.card .content .detalhes .name{
+    font-size: 20px;
+    color: black;
+}
+
+.card .content .detalhes .rm{
+    font-size: 20px;
+    color: black;
+}
 
 /*---------------*/
 button {

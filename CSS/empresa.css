@@ -1,6 +1,8 @@
 :root{
     --tifanny: #0abab5;
     --vermelho: #FF0000;
+    --azul: #1C59BA;
+    --verde: #15A015;
 }
 
 *{
@@ -57,13 +59,174 @@ section nav ul li a:hover{
 }
 
 .empresa_logo img{
-    width: 600px;
+    width: 1500px;
+    height: 500px;
     position: relative;
-    left: 400px;
-    padding-top: 30px;
+    right: -2px;
+    padding-top: 90px;
 }
 
 
+h1{
+    position: absolute;
+    width: 800px;
+    height: 112px;
+    left: 36px;
+    top: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 span {
+    color: #FF0000;
+}
+
+ section .Tazul p {
+    position: absolute;
+    width: 800px;
+    left: 400px;
+    top: 530px;
+    font-size: 30px;
+    color: #1C59BA;
+ }
+
+ section .Cverde p {
+    position: absolute;
+    width: 800px;
+    left: 580px;
+    top: 530px;
+    font-size: 30px;
+    color: #15A015;
+ }
+
+ section .Ivermelho p {
+    position: absolute;
+    width: 800px;
+    left: 790px;
+    top: 530px;
+    font-size: 30px;
+    color: #FF0000;
+ }
+
+ section .Ivermelho p span{
+    color: black;
+ }
+
+
+section .image1 img{
+    position: absolute;
+    width: 750px;
+    height: 600px;
+    left: 350px;
+    top:10px;
+}
+
+section .imagetxt img{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 850px;
+    top: 600px;
+}
+
+section .imagetxt p{
+    position: absolute;
+    width: 550px;
+    left: 200px;
+    top: 700px;
+    font-size: 30px;
+    color: black;
+}
+
+section .retanguloTitulo img{
+    position: absolute;
+    width: 1515px;
+    height: 50px;
+    left: -36px;
+    top: 1050px;
+}
+
+section .retanguloTitulo p{
+    position: absolute;
+    width: 850px;
+    left: 600px;
+    top: 1050px;
+    font-size: 50px;
+    color: black;
+}
+
+section .imagecomlogo img{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 430px;
+    top: 1150px;
+}
+
+section .logoNheenba img{
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    left: 110px;
+    top: 1450px;
+}
+
+section .logoNheenba p{
+    position: absolute;
+    width: 550px;
+    left: 500px;
+    top: 1500px;
+    font-size: 30px;
+    color: black;
+}
+
+section .txtAzul p{
+    position: absolute;
+    width: 600px;
+    left: 460px;
+    top: 1800px;
+    font-size: 30px;
+    color: black;
+}
+
+section .txtAzul p span{
+    color: #1C59BA;
+}
+
+section .txtVerde p{
+    position: absolute;
+    width: 600px;
+    left: 460px;
+    top: 1900px;
+    font-size: 30px;
+    color: black;
+}
+
+section .txtVerde p span{
+    color: #15A015;
+}
+
+
+section .txtVermelho p{
+    position: absolute;
+    width: 600px;
+    left: 460px;
+    top: 2000px;
+    font-size: 30px;
+    color: black;
+}
+
+section .txtVermelho p span{
+    color: #FF0000;
+}
+
+
+section .imagefinal img{
+    position: absolute;
+    width: 600px;
+    left: 440px;
+    top: 2110px;
+}
 
 
 
