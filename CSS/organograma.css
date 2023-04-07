@@ -1,12 +1,15 @@
 :root{
     --tifanny: #0abab5;
+    --vermelho: #FF0000;
+    --azul: #1C59BA;
+    --verde: #15A015;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html{
@@ -54,3 +57,214 @@ section nav ul li a{
 section nav ul li a:hover{
     color: var(--vermelho);
 }
+
+
+
+
+.home button{   
+--color:var(--vermelho);
+font-family: inherit;
+display: inline-block;
+width: 200px;
+height: 100px;
+line-height: 2.5em;
+overflow: hidden;
+margin: 20px;
+font-size: 20px;
+z-index: 1;
+color: #FF0000;
+border: 10px solid var(--vermelho);
+border-radius: 10px;
+position: relative;
+top: 150px;
+left: 550px;
+background-color: white;
+box-shadow: 0 15px 35px;
+}
+
+.home button::before {
+position: absolute;
+content: "";
+background: var(--vermelho);
+width: 500px;
+height: 200px;
+z-index: -1;
+border-radius: 2px;
+}
+
+.home button:hover {
+color: white;
+}
+
+.home button:before {
+top: 100%;
+left: 100%;
+transition: .2s all;
+}
+
+.home button:hover::before {
+top: -30px;
+left: -30px;
+}
+
+
+
+
+.equipe button{   
+    font-family: inherit;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 20px;
+    z-index: 1;
+    color: var(--azul);
+    border: 10px solid var(--azul);
+    border-radius: 10px;
+    position: relative;
+    top: 210px;
+    left: 200px;
+    background-color: white;
+    box-shadow: 0 15px 35px;
+    }
+    
+   .equipe button::before {
+    position: absolute;
+    content: "";
+    background: var(--azul);
+    width: 500px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 2px;
+    }
+    
+    .equipe button:hover {
+    color: white;
+    }
+    
+    .equipe button:before {
+    top: 100%;
+    left: 100%;
+    transition: .2s all;
+    }
+    
+    .equipe button:hover::before {
+    top: -30px;
+    left: -30px;
+    }
+
+
+
+    .organograma button{   
+        font-family: inherit;
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        line-height: 2.5em;
+        overflow: hidden;
+        margin: 20px;
+        font-size: 20px;
+        z-index: 1;
+        color: var(--verde);
+        border: 10px solid var(--verde);
+        border-radius: 10px;
+        position: relative;
+        top: 70px;
+        left: 550px;
+        background-color: white;
+        box-shadow: 0 15px 35px;
+        }
+        
+       .organograma button::before {
+        position: absolute;
+        content: "";
+        background: var(--verde);
+        width: 500px;
+        height: 200px;
+        z-index: -1;
+        border-radius: 2px;
+        }
+        
+        .organograma button:hover {
+        color: white;
+        }
+        
+        .organograma button:before {
+        top: 100%;
+        left: 100%;
+        transition: .2s all;
+        }
+        
+        .organograma button:hover::before {
+        top: -30px;
+        left: -30px;
+        }
+
+
+        .NheenBa button{   
+            font-family: inherit;
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            line-height: 2.5em;
+            overflow: hidden;
+            margin: 20px;
+            font-size: 20px;
+            z-index: 1;
+            color: var(--verde);
+            border: 10px solid var(--verde);
+            border-radius: 10px;
+            position: relative;
+            top: -70px;
+            left: 900px;
+            background-color: white;
+            box-shadow: 0 15px 35px;
+            }
+            
+           .NheenBa button::before {
+            position: absolute;
+            content: "";
+            background: var(--verde);
+            width: 500px;
+            height: 200px;
+            z-index: -1;
+            border-radius: 2px;
+            }
+            
+            .NheenBa button:hover {
+            color: white;
+            }
+            
+            .NheenBa button:before {
+            top: 100%;
+            left: 100%;
+            transition: .2s all;
+            }
+            
+            .NheenBa button:hover::before {
+            top: -30px;
+            left: -30px;
+            }
+    
+    
+    
+
+
+
+        
+
+
+
+        
+
+
+    
+
+
+
+
+ 
+
+         

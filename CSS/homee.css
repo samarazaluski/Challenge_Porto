@@ -9,12 +9,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html{
     scroll-behavior: smooth;
 }
+
 
 section{
     width: 100%;
@@ -136,7 +137,17 @@ section .imagetxt p{
     top: 700px;
     font-size: 30px;
     color: black;
+    box-shadow: 0 15px 35px var(--azul);
 }
+
+
+.imagetxt hover {
+    transform: scale(0.30);
+  } 
+  .imagetxt:hover p {
+    transform: translateY(0) scale(1.1);
+  }
+
 
 section .retanguloTitulo img{
     position: absolute;
@@ -178,7 +189,16 @@ section .logoNheenba p{
     top: 1500px;
     font-size: 30px;
     color: black;
+    box-shadow: 0 15px 35px var(--verde);
 }
+
+.logoNheenba hover {
+    transform: scale(0.30);
+  } 
+  .logoNheenba:hover p {
+    transform: translateY(0) scale(1.1);
+  }
+
 
 section .txtAzul p{
     position: absolute;
@@ -187,8 +207,14 @@ section .txtAzul p{
     top: 1800px;
     font-size: 30px;
     color: black;
+    box-shadow: 0 10px 20px var(--azul);
 }
-
+.txtAzul hover {
+    transform: scale(0.30);
+  } 
+  .txtAzul:hover p {
+    transform: translateY(0) scale(1.1);
+  }
 section .txtAzul p span{
     color: #1C59BA;
 }
@@ -200,11 +226,21 @@ section .txtVerde p{
     top: 1900px;
     font-size: 30px;
     color: black;
+    box-shadow: 0 15px 35px var(--verde);
 }
 
 section .txtVerde p span{
     color: #15A015;
 }
+
+.txtVerde hover {
+    transform: scale(0.30);
+  } 
+  .txtVerde:hover p {
+    transform: translateY(0) scale(1.1);
+  }
+
+
 
 
 section .txtVermelho p{
@@ -214,11 +250,22 @@ section .txtVermelho p{
     top: 2000px;
     font-size: 30px;
     color: black;
+    box-shadow: 0 15px 35px var(--vermelho);
 }
 
 section .txtVermelho p span{
     color: #FF0000;
 }
+
+
+.txtVermelho hover {
+    transform: scale(0.50);
+  } 
+  .txtVermelho:hover p {
+    transform: translateY(0) scale(1.1);
+  }
+
+
 
 
 section .imagefinal img{
