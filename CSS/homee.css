@@ -3,13 +3,19 @@
     --vermelho: #FF0000;
     --azul: #1C59BA;
     --verde: #15A015;
+    font-family: Roobert-Regular;
 }
+
+@font-face {
+    font-family: Roobert-Regular;
+    src: url(Roobert-Regular.ttf) format("TrueType");
+  }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Roobert-Regular;
 }
 
 html{
@@ -76,6 +82,7 @@ h1{
     top: 500px;
     text-align: center;
     font-size: 40px;
+    font-family: Roobert-Regular;
 }
 
 h1 span {
