@@ -107,6 +107,27 @@ top: -30px;
 left: -30px;
 }
 
+.home img{
+    width: 60px;
+    position: relative;
+    top: 280px;
+    left: 400px;
+}
+
+.equipe img{
+    width: 60px;
+    position: relative;
+    top: 240px;
+    left: 220px;
+}
+
+.organograma img{
+    width: 60px;
+    position: relative;
+    left: 560px;
+    top:100px ;
+}
+
 
 
 
@@ -203,7 +224,7 @@ left: -30px;
         }
 
 
-        .NheenBa button{   
+        .empresa button{   
             font-family: inherit;
             display: inline-block;
             width: 200px;
@@ -223,7 +244,7 @@ left: -30px;
             box-shadow: 0 15px 35px;
             }
             
-           .NheenBa button::before {
+            .empresa button::before {
             position: absolute;
             content: "";
             background: var(--verde);
@@ -233,17 +254,17 @@ left: -30px;
             border-radius: 2px;
             }
             
-            .NheenBa button:hover {
+            .empresa button:hover {
             color: white;
             }
             
-            .NheenBa button:before {
+            .empresa button:before {
             top: 100%;
             left: 100%;
             transition: .2s all;
             }
             
-            .NheenBa button:hover::before {
+            .empresa button:hover::before {
             top: -30px;
             left: -30px;
             }
