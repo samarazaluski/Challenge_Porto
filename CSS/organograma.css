@@ -64,6 +64,16 @@ section nav ul li a:hover{
 }
 
 
+section h1{
+    position: fixed;
+    top: 105px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 40px;
+    box-shadow: 0 15px 35px var(--azul);
+}
+
 
 
 .home button{   

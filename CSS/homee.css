@@ -76,16 +76,7 @@ section nav ul li a:hover{
 }
 
 
-h1{
-    position: absolute;
-    width: 800px;
-    height: 112px;
-    left: 36px;
-    top: 500px;
-    text-align: center;
-    font-size: 40px;
-    font-family: Roobert-Regular;
-}
+
 
 h1 span {
     color: #FF0000;
@@ -283,6 +274,31 @@ section .imagefinal img{
     width: 600px;
     left: 440px;
     top: 2115px;
+}
+
+section .txtsolucao{
+    width: 600px;
+    position: relative;
+    top: 1900px;
+    font-family: Roobert-Regular;
+    left: 450px;
+    font-size: 20px;
+}
+
+section .txtsolucao h3{
+
+    position: relative;
+    top:-90px;
+    left: 200px;
+    font-size: 40px;
+}
+
+
+section .solucaoimg img{
+    width: 300px;
+    position: relative;
+    top: 1500px;
+    left: 100px;
 }
 
 

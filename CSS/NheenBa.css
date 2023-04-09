@@ -174,3 +174,14 @@ section .terceirotxt p{
     font-size: 20px;
     color: #ffff;
 }
+
+
+section h3{
+    position: fixed;
+    top: 105px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 40px;
+    box-shadow: 0 15px 35px var(--vermelho);
+}
